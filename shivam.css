@@ -1,0 +1,233 @@
+/* home layout  */
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("photo\ with\ friends.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* home page  */
+input {
+  display: none;
+}
+label,
+ul {
+  border: 1px solid #cecfd5;
+  border-radius: 6px;
+}
+label {
+  color: #0087cc;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 18px;
+  padding: 5px 9px;
+  transition: all .15s ease;
+}
+label:hover {
+  color: #ff7b29;
+}
+input:checked + label {
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
+  color: #9799a7;
+}
+nav {
+  max-height: 0;
+  overflow: hidden;
+  transition: all .15s ease;
+}
+input:checked ~ nav {
+  max-height: 500px;
+}
+ul {
+  list-style: none;
+  margin: 8px 0 0 0;
+  padding: 0;
+  width: 100px;
+}
+li {
+  border-bottom: 1px solid #cecfd5;
+}
+li:last-child {
+  border-bottom: 0;
+}
+a {
+  color: #0087cc;
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+a:hover {
+  color: #ff7b29;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+/* for interests */
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+/* contacts */
+.fb{
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 31%;
+}
+.insta{
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 49%;
+}
+#bak{
+  font-size: 30px;
+  color: #faf5f2;
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+.fa {
+
+  padding: 10px;
+  font-size: 30px;
+  width: 200px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+ 
+}
+
+.teri {
+  /* The image used */
+  background-image: url("contacts\ background.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background-color: rgb(121, 108, 238);
+  color: white;
+  text-align: center;
+  border-radius: 20px;
+}
+
+
+.fa-instagram {
+  background: #8e26f0;
+  color: white;
+  text-align: center;
+  border-radius: 20px
+}
+/*interests */
+.ch{
+  background-image: url(aout\ background.jpg);
+  opacity: 80%;
+  color: #cecfd5;
+  background-repeat:no-repeat;
+  background-size: 100%;
+}
+/* abouts */
+.tat{
+  background-image: url(interests\ background.jpg);
+  background-repeat:no-repeat;
+  background-size: 100%;
+}
+#mac{
+  position:absolute;
+  margin-left: 37%;
+  margin-top: 30%;
+  font-size: 200%;
+}
+.glow{
+  position: absolute;
+  margin-left: 40%;
+  margin-top: 25%;
+  font-size: 200%;
+}
+.n{
+  position: absolute;
+  font-size: 200%;
+
+}
+hr{
+  width: 75%;
+  height: 10px;
+  color: #9799a7;
+}
+#int{
+  color:wheat;
+}
